@@ -10,7 +10,7 @@ public class AccountsDTO {
 
     private Long customerId;
 
-    private String accountTyoe;
+    private String accountType;
 
     private String branchAddress;
 
