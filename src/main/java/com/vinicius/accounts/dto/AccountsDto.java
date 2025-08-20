@@ -1,11 +1,9 @@
 package com.vinicius.accounts.dto;
 
 import lombok.Data;
-import lombok.Getter;
-import lombok.Setter;
 
 @Data
-public class AccountsDTO {
+public class AccountsDto {
     private Long accountNumber;
 
     private Long customerId;

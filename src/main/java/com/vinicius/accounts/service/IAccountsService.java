@@ -1,11 +1,15 @@
 package com.vinicius.accounts.service;
 
-import com.vinicius.accounts.dto.CustomerDTO;
-import com.vinicius.accounts.entity.Customer;
+import com.vinicius.accounts.dto.CustomerDto;
 
 public interface IAccountsService {
 
-    void createAccount(CustomerDTO customerDTO);
+    void createAccount(CustomerDto customerDTO);
 
 
+    CustomerDto fetchAccount(String mobileNumber);
+
+    boolean updateAccount(CustomerDto customerDto);
+
+    boolean deleteAccount(String mobileNumber);
 }
